@@ -1,8 +1,10 @@
 #include <stdio.h>
 int main(int argc, char const *argv[])
 {
-    /* code */
-   
-    printf("Hello, World!\n");
+/**
+ * * @file main.c
+ */
+    printf("Hello, Mani let us play with C!\n");
+    printf("Nice language!\n");
     return 0;
 }
