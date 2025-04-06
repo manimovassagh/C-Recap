@@ -9,6 +9,11 @@ int main(int argc, char const *argv[])
     char name[] = "Mani";
     char *nameRef = name;
     printf("Referenced name: %s\n", nameRef);
-    nameRef[2] = 'o';
+    nameRef[0] = 'S';
+    nameRef[1] = 'a';
+    nameRef[2] = 'h';
+    nameRef[3] = 'a';
+    nameRef[4] = 'r';
+    nameRef[5] = '\0';
     printf("Updated name: %s\n", name);
 }
