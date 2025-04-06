@@ -1,4 +1,3 @@
-#include <fstream>
 #include <stdio.h>
 int main(int argc, char const *argv[])
 {
@@ -11,17 +10,6 @@ int main(int argc, char const *argv[])
     char *nameRef = name;
 
 
-std::wofstream file("output.txt");
-    if (file.is_open()) {
-        file << "Hello, Mani let us play with C!\n";
-        file << "Nice language!\n";
-        file << "Referenced name: " << nameRef << "\n";
-        file << "Updated name: " << name << "\n";
-        file.close();
-    } else {
-        printf("Unable to open file\n");
-    }
-    printf("Name: %s\n", name);
 
 
     printf("Referenced name: %s\n", nameRef);
