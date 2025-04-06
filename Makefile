@@ -1,3 +1,3 @@
 run:
-	gcc -o build/app  main.c
-	./build/app
+	gcc -o build/main  main.c
+	./build/main
