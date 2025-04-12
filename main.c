@@ -21,7 +21,7 @@ int main(int argc, char const *argv[])
     nameRef[5] = '\0';
     printf("Updated name: %s\n", name);
 
-    int numbers[] = {1, 122, 3, 4, 5};
+    int numbers[] = {19999, 122, 3, 4, 5};
     int size = sizeof(numbers) / sizeof(numbers[0]);
     int result = sum_numbers(numbers, size);
     printf("Sum of numbers: %d\n", result);
