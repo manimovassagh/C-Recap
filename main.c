@@ -12,8 +12,6 @@ int main(int argc, char const *argv[])
     char *nameRef = name;
 
 
-
-
     printf("Referenced name: %s\n", nameRef);
     nameRef[0] = 'S';
     nameRef[1] = 'a';
